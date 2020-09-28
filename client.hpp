@@ -3,8 +3,10 @@
 #ifndef CLIENT_HPP_
 #define CLIENT_HPP_
 
+// Local
 #include "connection_settings.hpp"
 
+// System
 #include <iostream>
 
 using namespace std;
