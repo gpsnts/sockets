@@ -3,7 +3,7 @@
 ## Sockets - Share de arquivos
 
 ## Depts
-
+* make
 * Boost.Asio 
 ```sudo apt-get install libboost-all-dev```
 
@@ -16,7 +16,7 @@
 
 * ```make clean``` - limpa os binários ```client``` e ```server``` do diretório
 
-* ```make build``` - Compila o servidor e o cliente
+* ```make (build)``` - Compila o servidor e o cliente
 
 * ```make client``` - Compila apenas o client
 
