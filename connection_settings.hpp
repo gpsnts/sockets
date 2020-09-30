@@ -3,29 +3,18 @@
 #ifndef CONNECTION_SETTINGS_HPP_
 #define CONNECTION_SETTINGS_HPP_
 
-enum ConnectionStatus
-{
-  ABLE,
-  PENDING,
-  CONNECTED,
-  CANCELED,
-  WAITING
-};
-
 #define DEFAULT_PORT 1337
 #define DEFAULT_HOST "localhost"
 
 // System
 #include <iostream>
+#include <fstream>
 #include <string>
-#include <sys/types.h>
-#include <sys/stat.h>
-#include <sys/sendfile.h>
-#include <fcntl.h>
 
 // Libs
 #include <boost/asio.hpp>
-#include <boost/shared_ptr.hpp>
+#include <boost/array.hpp>
+#include <boost/thread.hpp>
 #include <boost/make_shared.hpp>
 #include <boost/enable_shared_from_this.hpp>
 #include <boost/bind.hpp>
