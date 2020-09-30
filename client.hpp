@@ -6,17 +6,10 @@
 // Local
 #include "connection_settings.hpp"
 
-// System
-#include <iostream>
-
-using namespace std;
-
-class Client
+class Client : boost::enable_shared_from_this<Client>
 {
   public:
     Client();
-    ~Client();
-    void connect();
 };
 
 #endif // CLIENT_HPP_

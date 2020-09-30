@@ -1,6 +1,6 @@
 CC=g++
 CXXFLAGS=-Wall -Wextra -pedantic -pthread
-LDLIBS=-lboost_system -lpthread
+LDLIBS=-lboost_system -lboost_thread -lpthread
 
 build: client_runner.cpp client.cpp client.hpp server_runner.cpp server.cpp server.hpp
 	$(CC) client_runner.cpp client.cpp -o client $(CXXFLAGS) $(LDLIBS)

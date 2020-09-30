@@ -1,9 +1,9 @@
 #include "client.hpp"
 
-int main()
+int main(int argc, char const *argv[])
 {
-  Client *client = new Client();
-  free(client);
+  Client *client;
 
-  return 0;
+  free(client);
+  return 1;
 }

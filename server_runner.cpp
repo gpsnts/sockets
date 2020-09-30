@@ -1,8 +1,9 @@
 #include "server.hpp"
 
-int main()
+int main(int argc, char const *argv[])
 {
-  Server *server = new Server();
+  Server *server;
+
   free(server);
-  return 0;
+  return 1;
 }
