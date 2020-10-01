@@ -9,21 +9,14 @@
 
 
 ## Depts
-* gcc (g++)
+
+* clang (clang++)
 * make
 * Boost.Asio 
 
 ### Debian-based
 
-```sudo apt-get install build-essential libboost-all-dev g++ gcc make automake```
-
-### Fedora(RHEL)-based
-
-```sudo dnf install boost-devel automake make kernel-devel gcc gcc-c++```
-
-### Arch-based
-
-```pacman -Ss base-devel boost-libs boost make automake gcc```
+```sudo apt-get install build-essential libboost-all-dev clang automake```
 
 ### Referências
 

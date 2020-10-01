@@ -6,7 +6,7 @@
 // Local
 #include "connection_settings.hpp"
 
-class Client : boost::enable_shared_from_this<Client>
+class Client : private boost::enable_shared_from_this<Client>
 {
   public:
     Client(

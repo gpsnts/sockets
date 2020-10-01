@@ -6,7 +6,7 @@
 // Local
 #include "connection_settings.hpp"
 
-class Connector : boost::enable_shared_from_this<Connector>
+class Connector : private boost::enable_shared_from_this<Connector>
 {
   public:
     asio::streambuf req_buffer;
