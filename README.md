@@ -36,10 +36,6 @@
 
 * ```make || make build``` - Compila o servidor e o cliente
 
-* ```make client``` - Compila apenas o client
-
-* ```make server``` - Compila apenas o server
-
 #### Nota
 
 Resolvi não deixar o projeto muito complexo usando um "CMakeLists.txt" para ficar mais prático
