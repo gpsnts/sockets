@@ -1,6 +1,6 @@
 # TGA
 
-## Sockets - Share de arquivos
+## Sockets - Share de arquivos 
 
 ## Integrantes
 

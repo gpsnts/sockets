@@ -9,17 +9,17 @@
 class Client : boost::enable_shared_from_this<Client>
 {
   public:
+    Client(
+      asio::io_service &service,
+      const string &server,
+      const string &path
+    );
+
     TCP::resolver resolver;
     Socket socket;
     boost::array<char, 1024> buffer;
     asio::streambuf req;
     ifstream source;
-
-    Client(
-      asio::io_service service,
-      string &server,
-      string &path
-    );
   
   private:
     void file_controller(

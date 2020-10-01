@@ -4,9 +4,9 @@ static boost::mutex d_mutex;
 
 // Mutex para sec. crítica
 Client::Client(
-  asio::io_service service,
-  string &server,
-  string &path
+  asio::io_service &service,
+  const string &server,
+  const string &path
 ) : 
   resolver(service),
   socket(service)
