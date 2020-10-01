@@ -7,3 +7,6 @@ build: client.cpp server.cpp connector.cpp main.cpp
 
 clean: app
 	rm -rf app
+
+run: app
+	./app

@@ -32,9 +32,11 @@
 
 ### Instruções
 
-* ```make clean``` - limpa os binários ```client``` e ```server``` do diretório
+* ```make run``` - roda a aplicação
 
-* ```make || make build``` - Compila o servidor e o cliente
+* ```make clean``` - limpa o binário da aplicação do diretório
+
+* ```make || make build``` - Compila a aplicação
 
 #### Nota
 
